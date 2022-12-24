@@ -51,6 +51,8 @@ cp ..
 find -type f -name
 
 #16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. - grep 
+tail -f filename | grep information
+
 #17) вывести несколько первых строк из текстового файла -
 sed -n 1,3p filename
 
